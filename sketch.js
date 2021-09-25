@@ -38,7 +38,7 @@ function draw() {
   background(0);
 
 
-  ellipse(ball.position.x,ball.position.y,radius,radius);
+  //DISPLAY ELLIPSE HERE
 
   groundObj.display();
   leftSide.display();  
@@ -48,8 +48,7 @@ function draw() {
 
 function keyPressed() {
   	if (keyCode === UP_ARROW) {
-
-		Matter.Body.applyForce(ball,ball.position,{x:85,y:-85});
+//APPLY FORCE HERE
     
   	}
 }
